@@ -30,3 +30,8 @@ flutter:
   assets: 
     - assets/json/local.json
     - assets/images/marker.png
+
+flutter_icons:
+  image_path: 'assets/images/icon.png'
+  android: true
+  ios: true
