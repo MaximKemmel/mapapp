@@ -1,0 +1,32 @@
+name: mapapp
+description: Test flutter-project for ToGo
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+  provider: ^6.0.5
+  http: ^0.13.5
+  get_it: 7.2.0
+  flutter_map: ^3.1.0
+  flutter_map_marker_cluster: ^1.1.0
+  latlong2: ^0.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.11.0
+
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/json/local.json
+    - assets/images/marker.png
